@@ -1,13 +1,13 @@
-package com.sylvan.springcloud.springcloud;
+package com.springcloud.client;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringcloudApplication {
+public class ClientApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringcloudApplication.class, args);
+        SpringApplication.run(ClientApplication.class, args);
     }
 
 }

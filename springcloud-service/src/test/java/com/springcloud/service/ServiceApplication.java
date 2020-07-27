@@ -1,10 +1,10 @@
-package com.sylvan.springcloud.springcloud;
+package com.springcloud.service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringcloudApplicationTests {
+class ServiceApplication {
 
     @Test
     void contextLoads() {
