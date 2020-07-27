@@ -19,13 +19,25 @@
     <properties>
         <java.version>1.8</java.version>
         <lombok.version>1.18.12</lombok.version>
+        <springboot.version>2.3.2.RELEASE</springboot.version>
+        <springcloud.version>Hoxton.SR5</springcloud.version>
     </properties>
+
 
     <dependencyManagement>
         <dependencies>
             <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${springcloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-web</artifactId>
+                <version>${springboot.version}</version>
             </dependency>
 
             <dependency>
@@ -38,6 +50,7 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-test</artifactId>
+                <version>${springboot.version}</version>
                 <scope>test</scope>
                 <exclusions>
                     <exclusion>
