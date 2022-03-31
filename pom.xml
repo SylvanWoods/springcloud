@@ -19,7 +19,7 @@
     <properties>
         <java.version>1.8</java.version>
         <lombok.version>1.18.12</lombok.version>
-        <springboot.version>2.3.2.RELEASE</springboot.version>
+        <springboot.version>2.5.12</springboot.version>
         <springcloud.version>Hoxton.SR5</springcloud.version>
     </properties>
 
